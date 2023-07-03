@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sporty Final - Data Deletion</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Sporty Final</h1>
+  </header>
+  
+  <section id="content">
+    <div class="container">
+      <h2>Data Deletion</h2>
+      <p>Dear user, if you wish to delete your data from Sporty Final, please follow the instructions below:</p>
+      
+      <ol>
+        <li>Enter your email address in the field below.</li>
+        <li>Click the "Delete My Data" button.</li>
+        <li>An email will be sent to your provided address with further instructions to confirm the deletion.</li>
+        <li>Once the deletion is confirmed, your data will be permanently removed from our system.</li>
+      </ol>
+      
+      <form action="delete.php" method="post" class="data-form">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit" class="delete-button">Delete My Data</button>
+      </form>
+      
+      <p>Please note that by deleting your data, the following types of information will be removed:</p>
+      
+      <ul>
+        <li>Personal details (name, age, gender, etc.)</li>
+        <li>Activity tracking data</li>
+        <li>Training plans and goals</li>
+        <li>Social interactions and achievements</li>
+      </ul>
+      
+      <p>If you have any concerns or questions regarding data deletion, please contact our support team at <a href="mailto:support@sportyfinal.com">support@sportyfinal.com</a>.</p>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Sporty Final. All rights reserved.</p>
+  </footer>
+</body>
+</html>
